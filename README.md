@@ -1,3 +1,8 @@
+# Links:
+
+- [S3 site](https://sk-shop-spa.s3.amazonaws.com/index.html) - deployed manually
+- [CloudFront Site](https://d1pr79iycohidj.cloudfront.net/) - deployed using serverless framework
+
 # React-shop-cloudfront
 
 This is frontend starter project for nodejs-aws mentoring program. It uses the following technologies:

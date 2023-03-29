@@ -29,7 +29,7 @@ axios.interceptors.response.use(
   (error) => {
     const responseStatus = error.response.status;
 
-    if (!responseStatus || responseStatus === 401 || responseStatus === 403) {
+    if (responseStatus === 401 || responseStatus === 403) {
       alert(error.response.data?.message);
     }
 
